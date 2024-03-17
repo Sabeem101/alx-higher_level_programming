@@ -1,4 +1,5 @@
 Python Programming:
-	- Python - Hello, World.
-	- Python - if/else, loops, functions.
-	- Python - import & modules.
+	- Hello, World.
+	- If/else, loops, functions.
+	- Import & modules.
+	- Data structures: Lists, tuples.

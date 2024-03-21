@@ -6,5 +6,5 @@ def roman_to_int(roman_string):
             "C": 100, "D": 500, "M": 1000}
     rstr = roman_string
     con = [rnum[x[0]] if rnum[x[0]] >= rnum[x[1]] else (-1*rnum[x[0]])
-            for x in zip(rstr, rstr[1:] + rstr[-1])]
-    return (sum(con))
+        for x in zip(rstr, rstr[1:] + rstr[-1])]
+    return sum(con)

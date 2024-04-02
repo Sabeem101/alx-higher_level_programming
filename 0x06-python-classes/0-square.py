@@ -1,6 +1,13 @@
 #!/usr/bin/python3
-""" defines a square """
+"""
+defining an empty class.
+"""
+
 
 class Square:
-    """Empty Class"""
+    """
+    Empty Class tha defines a square.
+    Attributes:
+        This class doesn't have any attributes.
+    """
     pass

@@ -1,0 +1,47 @@
+=========================================
+Testing function that prints a full name.
+=========================================
+
+Usage
+=====
+
+::
+	>>> say_my_name = __import__('3-say_my_name').say_my_name
+	>>> say_my_name("Sabeem", "Aladeem")
+	My name is Sabeem Aladeem
+
+::
+	>>> say_my_name("William Franklin", "Graham VI")
+	My name is William Franklin Graham VI
+
+::
+	>>> say_my_name("Hannibal")
+	My name is Hannibal
+
+Invalid names
+=============
+
+::
+	>>> say_my_name(6, "Clara")
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+::
+	>>> say_my_name("Cristiano", ["Man United", "Real Madrid", "Juventus"])
+	Traceback (most recent call last):
+	TypeError: last_name must be a string
+
+::
+	>>> say_my_name({"LeBron": 6, "James": 23}, 7.7)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+::
+	>>> say_my_name(None)
+	Traceback (most recent call last):
+	TypeError: first_name must be a string
+
+::
+	>>> say_my_name()
+	Traceback (most recent call last):
+	TypeError: say_my_name() missing 1 required positional argument: 'first_name'

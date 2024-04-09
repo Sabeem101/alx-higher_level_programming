@@ -19,6 +19,7 @@ class Rectangle:
     def width(self):
         """Property that retrieves the rectangle width."""
         return self.__width
+
     @width.setter
     def width(self, value):
         """Property setter that sets the value of the rectangle width."""
@@ -33,6 +34,7 @@ class Rectangle:
     def height(self):
         """Property that retrieves the rectangle height."""
         return self.__height
+
     @height.setter
     def height(self, value):
         """Property setter that sets the value of the rectangle height."""

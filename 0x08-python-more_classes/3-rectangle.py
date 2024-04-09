@@ -59,6 +59,7 @@ class Rectangle:
 
     def __str__(self):
         """Standard methode that prints the rectangle with the character #"""
+
         rectangle = ""
 
         if self.__width == 0 or self.__height == 0:

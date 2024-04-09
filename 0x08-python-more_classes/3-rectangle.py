@@ -58,6 +58,7 @@ class Rectangle:
         rectangle = ""
         if self.__width == 0 or self.__height == 0:
             return rectangle
+
         x = 0
         while x <= self.__height:
             rectangle += "#" * self.__width

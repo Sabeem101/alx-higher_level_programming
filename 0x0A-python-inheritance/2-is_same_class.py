@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-is_same_class function.
+Module definition is_same_class.
 """
 
 

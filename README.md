@@ -8,3 +8,4 @@ Python Programming:
 	- Test Driven Development.
 	- More Classes and Objects.
 	- Everything is object.
+	- Inheritance.

@@ -1,0 +1,62 @@
+==================================================
+Testing class method that validates a sorted list.
+==================================================
+
+Usage "MyList"
+
+Importing the function from the module:
+	>>> MyList = __import__("1-my_list").MyList
+	>>> c = MyList()
+	>>> c.print_sorted()
+	[]
+	>>> print(c)
+	[]
+
+::
+	>>> d = MyList()
+	>>> d.append(1)
+	>>> d.append(2)
+	>>> d.append(3)
+	>>> d.append(4)
+	>>> print(d)
+	[1, 2, 3, 4]
+	>>> d.print_sorted()
+	[1, 2, 3, 4]
+
+::
+	>>> e = MyList()
+	>>> e.append(4)
+	>>> e.append(3)
+	>>> e.append(2)
+	>>> e.append(1)
+	>>> print(e)
+	[4, 3, 2, 1]
+	>>> e.print_sorted()
+	[1, 2, 3, 4]
+	>>> print(e)
+	[4, 3, 2, 1]
+
+::
+	>>> f = MyList()
+	>>> f.append(4)
+	>>> f.append(3)
+	>>> f.append(2)
+	>>> f.append(1)
+	>>> f.append(-1)
+	>>> f.append(5)
+	>>> print(f)
+	[4, 3, 2, 1, -1, 5]
+	>>> f.print_sorted()
+	[-1, 1, 2, 3, 4, 5]
+	>>> print(f)
+	[4, 3, 2, 1, -1, 5]
+
+::
+	>>> j = MyList()
+	>>> j.append(0)
+	>>> j.append(0)
+	>>> j.append(0)
+	>>> j.print_sorted()
+	[0, 0, 0]
+	>>> print(j)
+	[0, 0, 0]

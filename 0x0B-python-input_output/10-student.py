@@ -25,6 +25,10 @@ class Student:
         """
         Gets a dictionary representation of the student class.
         """
-        if type(attrs) is list and all([type(s) == str for s in attrs]):
-            return {x: y for x, y in self.__dict__.items() if x in attrs}
-        return self.__dict__
+        attri = self.__dict__.copy()
+
+        if isinstance(attrs, list):
+            for x in self.__dict__.keys():
+                if x not in attrs:
+                    del attri[x]
+        return attri

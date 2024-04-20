@@ -10,3 +10,4 @@ Python Programming:
 	- Everything is object.
 	- Inheritance.
 	- Input/Output.
+	- Almost a circle.

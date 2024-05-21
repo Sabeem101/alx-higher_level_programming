@@ -11,3 +11,6 @@ Python Programming:
 	- Inheritance.
 	- Input/Output.
 	- Almost a circle.
+
+Learning SQL:
+	- Introduction.

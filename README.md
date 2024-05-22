@@ -14,3 +14,4 @@ Python Programming:
 
 Learning SQL:
 	- Introduction.
+	- More queries.

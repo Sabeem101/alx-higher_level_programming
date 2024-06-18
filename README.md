@@ -1,4 +1,4 @@
-Python Programming:
+Learning Python:
 	- Hello, World.
 	- If/else, loops, functions.
 	- Import & modules.
@@ -14,4 +14,7 @@ Python Programming:
 
 Learning SQL:
 	- Introduction.
-	- More queries.
+	- More queries.i
+
+Learning Javascript:
+	- Warm up.

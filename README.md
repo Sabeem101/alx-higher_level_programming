@@ -11,6 +11,7 @@ Learning Python:
 	- Inheritance.
 	- Input/Output.
 	- Almost a circle.
+	- Object relational mapping.
 
 Learning SQL:
 	- Introduction.

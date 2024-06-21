@@ -11,7 +11,8 @@ if __name__ == '__main__':
     from the 'states' table.
     """
     DB = MySQLdb.connect(
-            host="localhost", user=argv[1], port=3306, passwd=argv[2], db=argv[3])
+            host="localhost", user=argv[1], port=3306,
+            passwd=argv[2], db=argv[3])
 
     crsr = DB.cursor()
     crsr.execute("SELECT * FROM states")

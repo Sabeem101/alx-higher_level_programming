@@ -12,6 +12,7 @@ Learning Python:
 	- Input/Output.
 	- Almost a circle.
 	- Object relational mapping.
+	- Network 0.
 
 Learning SQL:
 	- Introduction.

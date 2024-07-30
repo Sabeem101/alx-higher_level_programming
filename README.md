@@ -13,6 +13,7 @@ Learning Python:
 	- Almost a circle.
 	- Object relational mapping.
 	- Network 0.
+	- Network 1.
 
 Learning SQL:
 	- Introduction.

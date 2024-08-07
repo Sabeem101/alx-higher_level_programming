@@ -23,3 +23,4 @@ Learning Javascript:
 	- Warm up.
 	- Objects, scopes and closures.
 	- Web scraping.
+	- Web JQuery.
